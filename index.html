@@ -19,43 +19,47 @@
           <input type="text" placeholder="Поиск по сайту" class="search__input">
           <a href="catalog.html" class="search__button">Найти</a>
         </label>
-        <ul class="header__user user-list">
-          <li class="user-list__item">
-            <a href="enter.html" class="user-list__link">Войти</a>
-          </li>
-        </ul>
-        <ul class="header__market market-list">
-          <li><a href="cart.html" class="market-list__link market-list__link_compare">Сравнить</a></li>
-          <li><a href="cart.html" class="market-list__link market-list__link_cart">Корзина</a></li>
-        </ul>
+        <div class="header__right">
+          <ul class="header__user user-list">
+            <li class="user-list__item">
+              <a href="enter.html" class="user-list__link">Войти</a>
+            </li>
+          </ul>
+          <ul class="header__market market-list">
+            <li><a href="cart.html" class="market-list__link market-list__link_compare">Сравнить</a></li>
+            <li><a href="cart.html" class="market-list__link market-list__link_cart">Корзина</a></li>
+          </ul>
+        </div>
       </div>
       <nav class="header__bottom nav">
-        <a href="catalog.html" class="nav__catalog-link">Каталог товаров</a>
-        <div class="nav__sub-menu sub-menu">
-          <ul class="sub-menu__category-list">
-            <li class="sub-menu__item">
-              <a href="" class="sub-menu__link">Виртуальная реальность</a>
-            </li>
-            <li class="sub-menu__item">
-              <a href="" class="sub-menu__link">Моноподы для селфи</a>
-            </li>
-            <li class="sub-menu__item">
-              <a href="" class="sub-menu__link">Экшн-камеры</a>
-            </li>
-          </ul>
-          <ul class="sub-menu__category-list">
-            <li class="sub-menu__item">
-              <a href="" class="sub-menu__link">Фитнес-браслеты</a>
-            </li>
-            <li class="sub-menu__item">
-              <a href="" class="sub-menu__link">Умные часы</a>
-            </li>
-          </ul>
-          <ul class="sub-menu__category-list">
-            <li class="sub-menu__item">
-              <a href="" class="sub-menu__link">Квадрокоптеры</a>
-            </li>
-          </ul>
+        <div class="nav__dropdown">
+          <a href="catalog.html" class="nav__catalog-link">Каталог товаров</a>
+          <div class="nav__sub-menu sub-menu">
+            <ul class="sub-menu__category-list">
+              <li class="sub-menu__item">
+                <a href="" class="sub-menu__link">Виртуальная реальность</a>
+              </li>
+              <li class="sub-menu__item">
+                <a href="" class="sub-menu__link">Моноподы для селфи</a>
+              </li>
+              <li class="sub-menu__item">
+                <a href="" class="sub-menu__link">Экшн-камеры</a>
+              </li>
+            </ul>
+            <ul class="sub-menu__category-list">
+              <li class="sub-menu__item">
+                <a href="" class="sub-menu__link">Фитнес-браслеты</a>
+              </li>
+              <li class="sub-menu__item">
+                <a href="" class="sub-menu__link">Умные часы</a>
+              </li>
+            </ul>
+            <ul class="sub-menu__category-list">
+              <li class="sub-menu__item">
+                <a href="" class="sub-menu__link">Квадрокоптеры</a>
+              </li>
+            </ul>
+          </div>
         </div>
         <ul class="nav__list navigation">
           <li><a href="delivery.html" class="navigation__link">Доставка</a></li>
@@ -314,15 +318,17 @@
     <div class="container">
       <div class="footer__top">
         <a class="footer__logo"><img src="img/device_yellow.svg" alt="Логотип Device" width="163" height="35"></a>
-        <ul class="footer__user user-list">
-          <li class="user-list__item">
-            <a href="enter.html" class="user-list__link">Войти</a>
-          </li>
-        </ul>
-        <ul class="footer__market market-list">
-          <li><a href="cart.html" class="market-list__link market-list__link_compare">Сравнить</a></li>
-          <li><a href="cart.html" class="market-list__link market-list__link_cart">Корзина</a></li>
-        </ul>
+        <div class="footer__right">
+          <ul class="footer__user user-list">
+            <li class="user-list__item">
+              <a href="enter.html" class="user-list__link">Войти</a>
+            </li>
+          </ul>
+          <ul class="footer__market market-list">
+            <li><a href="cart.html" class="market-list__link market-list__link_compare">Сравнить</a></li>
+            <li><a href="cart.html" class="market-list__link market-list__link_cart">Корзина</a></li>
+          </ul>
+        </div>
       </div>
       <div class="footer__middle">
         <address class="footer__address">г. Москва, ул. Строителей, 15</address>
@@ -374,7 +380,7 @@
           d="M27.5 0C12.312 0 0 12.312 0 27.5S12.312 55 27.5 55 55 42.688 55 27.5 42.688 0 27.5 0zm11.476 37.072l-1.486 1.426-9.99-9.574-9.987 9.574-1.488-1.426 9.988-9.573-9.987-9.573 1.487-1.425 9.987 9.573 9.988-9.573 1.487 1.425-9.989 9.574 9.99 9.572z" />
       </svg>
     </button>
-    <form class="modal__form feed-form" action="https://echo.htmlacademy.ru" method="get">
+    <form class="modal__form feed-form" action="https://echo.htmlacademy.ru" method="post">
       <div>
         <label class="feed-form__label">
           Ваше имя:
